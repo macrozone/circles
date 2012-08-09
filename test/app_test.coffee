@@ -6,7 +6,7 @@ describe 'Sample test', ->
 describe 'GET /', ->
   response = null
   before (done) ->
-    request 'http://localhost:3000', (e, r, b) ->
+    request 'http://localhost:8081', (e, r, b) ->
       response = r
       done()
 
